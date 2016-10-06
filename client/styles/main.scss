@@ -1,0 +1,20 @@
+$background: lightblue;
+$baseFontSize: 12;
+
+@media only screen and (min-width: 1280px) {
+    html {
+      font-size: $baseFontSize;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    html {
+      font-size: $baseFontSize * 1.5;
+    }
+}
+body {
+  background: $background;
+  font-family: "Helvetica Neue", serif;
+  width: 106.66666666666667rem;
+  height: 60rem;
+  border: 1px solid red
+}

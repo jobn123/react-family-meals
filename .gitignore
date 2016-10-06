@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+coverage/
+dist
+assets.json
+build
+*.DS_Store
+app/app.min.js
+app/app.min.js.map
+app/version.js
